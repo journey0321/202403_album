@@ -156,8 +156,8 @@ swiper-slide img {
     }
 
     swiper-container {
-        width: 440px;
-        height: 520px;
+        width: 320px;
+        height: 420px;
     }
 
     .start .letter p {
@@ -175,7 +175,7 @@ swiper-slide img {
     }
 
     swiper-container {
-        width: 240px;
-        height: 320px;
+        width: 200px;
+        height: 300px;
     }
 }
