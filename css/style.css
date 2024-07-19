@@ -19,6 +19,7 @@ section.start {
     width: 50%;
     color: #333;
     justify-content: flex-end;
+    text-align: center;
 }
 
 .start .title span {
@@ -95,4 +96,86 @@ swiper-slide img {
 
 .start .letter .logo span > img {
     width: 30%;
+}
+
+.m_ver {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .m_ver {
+        display: block;
+    }
+
+    section.start {
+        height: auto;
+        background-repeat: repeat-y;
+    }
+
+    .start .title span.font {
+        font-size: 40px;
+    }
+
+    .start .title span {
+        width: 460px;
+    }
+
+    .start .photo_card {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    swiper-container {
+        width: 440px;
+        height: 520px;
+    }
+
+    .start .letter .logo span > img {
+        width: 30%;
+    }
+
+    .start .letter {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .start .title {
+        flex-direction: column;
+        padding: 50px 0 20px;
+        gap: 0px;
+    }
+
+    .start .title span.font {
+        justify-content: center;
+    }
+
+    .start .title span {
+        justify-content: center;
+    }
+
+    swiper-container {
+        width: 440px;
+        height: 520px;
+    }
+
+    .start .letter p {
+        font-size: 14px;
+    }
+
+    .start .letter .logo span > img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 375px) {
+    .start .title span.font {
+        font-size: 37px;
+    }
+
+    swiper-container {
+        width: 240px;
+        height: 320px;
+    }
 }
