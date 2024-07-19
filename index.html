@@ -10,18 +10,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memoris</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <section class="start">
         <div class="title">
-            <span class="font">
+            <span class="font" data-aos="fade-right">
                 Welcome to
             </span>
-            <span>
+            <span data-aos="fade-left">
                 <img src="/img/logo.png" alt="logo">
             </span>
         </div>
-        <div class="photo_card">
+        <div class="photo_card" data-aos="flip-left">
             <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
                 <swiper-slide>
                     <img src="/img/1.jpg">
@@ -57,7 +59,7 @@
                     <img src="/img/10.jpg">
                 </swiper-slide>
             </swiper-container>
-            <div class="letter">
+            <div class="letter" data-aos="flip-right">
                 <h1>Thank you for visiting</h1>
                 <p>
                     여러분의 따뜻한 관심과 참석으로 인해 더욱 특별한 순간이 되었습니다.<br>
@@ -82,5 +84,8 @@
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script> 
+        AOS.init();
+    </script>
 </body>
 </html>
