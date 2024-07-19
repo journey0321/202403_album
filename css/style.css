@@ -169,6 +169,13 @@ swiper-slide img {
     }
 }
 
+@media (max-width: 475px) {
+    swiper-container {
+        width: 200px;
+        height: 300px;
+    }
+}
+
 @media (max-width: 375px) {
     .start .title span.font {
         font-size: 37px;
