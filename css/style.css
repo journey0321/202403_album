@@ -1,0 +1,98 @@
+section.start {
+    background: url(/img/background.jpg) no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.start .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.start .title span.font {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    width: 50%;
+    color: #333;
+    justify-content: flex-end;
+}
+
+.start .title span {
+    display: flex;
+}
+
+.start .title span img {
+    width: 30%;
+}
+
+.start .photo_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-container {
+    width: 540px;
+    height: 620px;
+}
+
+swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.start .letter {
+    text-align: center;
+    width: 50%;
+}
+
+.start .letter h1 {
+    font-size: 30px;
+    font-family: 'Pacifico';
+    margin-bottom: 50px;
+}
+
+.start .letter p {
+    font-family: 'Noto sans KR';
+    font-size: 16px;
+    line-height: 2;
+}
+
+.start .letter .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.start .letter .logo span {
+    display: flex;
+    width: 50%;
+}
+
+.start .letter .logo span:first-child {
+    justify-content: flex-end;
+}
+
+.start .letter .logo span > img {
+    width: 30%;
+}
